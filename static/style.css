@@ -40,15 +40,15 @@ ul{
 
 
  /* class selector */
-.movies li{padding: 10px;
+.movie li{padding: 10px;
             font-size: large;
             font-style: italic;
             color:rgb(240, 105, 220);
         } 
 
 /*:nth-child() is pseudo selector*/
-.movies li:nth-child(odd){background-color: grey;}  
-.movies li:nth-child(even){background-color: white;}
+.movie li:nth-child(odd){background-color: grey;}  
+.movie li:nth-child(even){background-color: white;}
 
 a{color: darkblue;
 transition: all 3s;
