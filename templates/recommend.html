@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
-    <h1> Here are your Recommendations: </h1>
-    <ol class="movie">
+    <h1> Here are your Recommendations, loser: </h1>
+    <img src="static/popcorn.gif" >
+    <ul class="movie">
     {%for movie in recommendation%} <!-- unordered list / use <ol> for ordered lists(numbers) -->
     <li>{{movie}}</li>
     {%endfor%}
-    </ol class="movie">
+    </ul class="movie">
+    <img src="static/popcorn.gif" >
     <br>
     <a href="/">Go back to main page</a>
 

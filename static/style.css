@@ -11,17 +11,18 @@ body{
     font-size: large;
     font-family:Arial, Helvetica, sans-serif;
     background-color: bisque;
-    background-image: url("timothy-eberly-dTLlhgeEJWg-unsplash.jpg");
+    background-image: url("felix-mooneeram-evlkOfkQ5rE-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 input,button{
-    background-color:rgb(238, 27, 27);
-    padding: 10px;
+    background-color:rgb(147, 250, 255);
+    padding: 5px;
+    border-radius: 5px;
     font-size: inherit;
     font-family: inherit;
-    outline-color: blueviolet;
+    outline-color: rgb(0, 0, 0);
 }
 
 button{color:rgb(243, 213, 18);
@@ -43,12 +44,12 @@ ul{
 .movie li{padding: 10px;
             font-size: large;
             font-style: italic;
-            color:rgb(240, 105, 220);
+            color:rgb(0, 0, 0);
         } 
 
 /*:nth-child() is pseudo selector*/
-.movie li:nth-child(odd){background-color: grey;}  
-.movie li:nth-child(even){background-color: white;}
+.movie li:nth-child(odd){color: rgb(230, 230, 230);}  
+.movie li:nth-child(even){color: rgb(165, 165, 165);}
 
 a{color: darkblue;
 transition: all 3s;
@@ -64,7 +65,7 @@ img:hover{
     filter: grayscale();
     /*filter:blur(2px)*/;
     /*filter: brightness(20%);*/
-    transform: rotate(5deg) scale(1.2);}
+    transform: rotate(2deg) scale(1.05);}
 
 
 p,h2{color: aqua;
