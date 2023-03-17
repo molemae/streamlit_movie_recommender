@@ -40,7 +40,11 @@ ul{
 
 
  /* class selector */
-.movies li{padding: 10px;} 
+.movies li{padding: 10px;
+            font-size: large;
+            font-style: italic;
+            color:rgb(240, 105, 220);
+        } 
 
 /*:nth-child() is pseudo selector*/
 .movies li:nth-child(odd){background-color: grey;}  
