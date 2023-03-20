@@ -77,7 +77,7 @@ if nav == "Home":
 
 
 if nav == "Wombats":
-    st.title(':blue[Ciao Cacao]')
+    st.title(':red[have soem Wombats]')
     st.image('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc.tenor.com%2Fv_CRiqOnPpIAAAAC%2Fwombat-eating.gif&f=1&nofb=1&ipt=7f5599fb69eee74da6e82f3972ba281588135a4e457d99b88cb78e8ae2f11636&ipo=images')
     st.image('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2F19994749f3c8f7574ab5ddf8b925a1ec%2Ftenor.gif%3Fitemid%3D8758672&f=1&nofb=1&ipt=c0bb654cab47fddbfe7c4a87bc37ffaaceb2b47a56d6520de8a4f4658c51d83a&ipo=images')
     st.image('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F14miSV6VMiO7te%2Fgiphy.gif&f=1&nofb=1&ipt=2dce481028513f4fe070a6f0d491621c06a793ec8f85e93f899730432dfe9ece&ipo=images')
