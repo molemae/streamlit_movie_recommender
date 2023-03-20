@@ -43,7 +43,7 @@ def recommend_with_NMF(query, k=10):
     recommended_movies = recommended_movies[:k] #shorten to Top 10
     return recommended_movies
 
-def recommend_neighborhood(query,k=5):
+def recommend_neighborhood(query,k=10):
     # transpose ratings matrix
     initial = ratings.T
     # add new query to user item matrix

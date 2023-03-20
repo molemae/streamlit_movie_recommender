@@ -30,7 +30,6 @@ input,button{
     font-family: inherit;
     font-style: italic;
     outline-color: rgb(0, 0, 0);
-    cursor: pointer;
 }
 
 .select {color: black;
@@ -38,8 +37,7 @@ input,button{
     border-radius: 5px;
     font-style: oblique;
     font-size: 20px;
-    transition: all 3s;
-    cursor: pointer;}
+    transition: all 3s;}
 
 input, button:hover{color: rgb(35, 35, 35);}
 

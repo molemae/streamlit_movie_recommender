@@ -8,44 +8,27 @@
     <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
-    <h1> Here are your Recommendations, loser: </h1>
+    <h1> Here are your Recommendations, my friend: </h1>
     <img src="static/popcorn.gif" >
     <ul class="movie">
-    {%for movie in recommendation%} <!-- unordered list / use <ol> for ordered lists(numbers) -->
-    <li>{{movie}}</li>
-    {%endfor%}
+        {%for movie in recommendation%} <!-- unordered list / use <ol> for ordered lists(numbers) -->
+        <li>{{movie}}</li>
+        {%endfor%}
     </ul class="movie">
     <img src="static/popcorn.gif" >
     <br>
-    <a href="/">Go back to main page</a>
+    <form action="/">
+        <input type="submit" value="Back to selection">
+    </form>
+    <!-- <a href="/">Go back to main page</a> -->
 
-    <!-- <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
     <script>
-        var end = Date.now() + (15 * 1000);
-
-            // go Buckeyes!
-            var colors = ['#bb0000', '#ffffff'];
-
-            (function frame() {
-                confetti({
-                    particleCount: 2,
-                    angle: 60,
-                    spread: 55,
-                    origin: { x: 0 },
-                    colors: colors
-                });
-                confetti({
-                    particleCount: 2,
-                    angle: 120,
-                    spread: 55,
-                    origin: { x: 1 },
-                    colors: colors
-                });
-
-                if (Date.now() < end) {
-                    requestAnimationFrame(frame);
-                }
-            }());
-    </script> -->
+      confetti({
+  particleCount: 100,
+  spread: 70,
+  origin: { y: 0.6 }
+});
+    </script>
 </body>
 </html>

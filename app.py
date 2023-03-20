@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    # print(movies.title.to_list())
+    print(request.args)
     return render_template('index.html', name="Moe's Movie Recommender", movies=movies.title.to_list())
 
 @app.route('/movies')
